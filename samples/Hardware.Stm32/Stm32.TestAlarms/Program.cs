@@ -14,7 +14,7 @@ namespace Stm32.TestAlarms
     {
         public static void Main()
         {
-            DateTime alarmTime = new DateTime(2018, 10, 29, 23, 30, 15);
+            DateTime alarmTime = new DateTime(2023, 6, 23, 11, 30, 15);
 
             Debug.WriteLine($"Set alarm time to {alarmTime.ToString("u")}");
 
